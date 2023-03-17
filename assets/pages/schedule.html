@@ -12,19 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
-    <!--<link rel="stylesheet" href="../styles/style2.css"> -->
 
 </head>
 
 <body>
     <div class="nav-fixed">
         <div class="navbar">
-            <nav>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <nav class="nav">
                 <a class="nav-link" href="../../index.html">Home</a>
                 <a class="nav-link" href="./about_us.html">About Us</a>
                 <a class="nav-link" href="./contact.html">Contact</a>
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="./schedule.html">Schedule</a>
                 <a class="nav-link" href="./benefits_and_tips.html">Benefits and Tips</a>
+                <a class="nav-link" href="./raffle.html">Raffle</a>
             </nav>
             <div class="logo">
                 <a href="../../index.html"><img class="img-logo" src="../images/logo.png" alt="logo Olympus Gym"></a>
@@ -33,10 +37,10 @@
     </div>
 
     <header>
-        <h1 class="title title-schedule">Schedule</h1>
-        <p class="text text-schedule">Here you can find the prices and schedules.</p>
+        <h1 class="title-schedule">Schedule</h1>
+        <p class="text-schedule">Here you can find the prices and schedules.</p>
     </header>
-    <main>
+    <main class="schedule-main">
         <div class="table">
             <table>
                 <tr>
@@ -74,7 +78,9 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2023 - Olympus Gym</p>
+        <div class="copyright">
+            <p>&copy; 2023 - Olympus Gym</p>
+        </div>
     </footer>
 </body>
 </html>
