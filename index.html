@@ -12,22 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <!-- <link rel="stylesheet" href="./assets/styles/style2.css">-->
+
 
 </head>
 
 <body>
     <div class="nav-fixed">
         <div class="navbar">
-            <nav>
-                <a class="nav-link" href="#">Home</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <nav class="nav">
+                <a class="nav-link" href="./index.html">Home</a>
                 <a class="nav-link" href="./assets/pages/about_us.html">About Us</a>
                 <a class="nav-link" href="./assets/pages/contact.html">Contact</a>
                 <a class="nav-link" href="./assets/pages/schedule.html">Schedule</a>
                 <a class="nav-link" href="./assets/pages/benefits_and_tips.html">Benefits and Tips</a>
+                <a class="nav-link" href="./assets/pages/raffle.html">Raffle</a>
             </nav>
             <div class="logo">
-                <a href="#"><img class="img-logo" src="./assets/images/logo.png" alt="logo Olympus Gym"></a>
+                <a href="./index.html"><img class="img-logo" src="./assets/images/logo.png" alt="logo Olympus Gym"></a>
             </div>
         </div>
     </div>
@@ -48,7 +53,9 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2023 - Olympus Gym</p>
+        <div class="copyright">
+            <p>&copy; 2023 - Olympus Gym</p>
+        </div>
     </footer>
 </body>
 
